@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = new int[10000];
+            Random rnd = new Random();
+            int n2 = 0;
+            int n9 = 0;
+
+            for(int i=0;i<10000;i++)
+            {
+                arr[i] = rnd.Next(0, 10);
+                if (arr[i] == 2)
+                    n2++;
+                else if (arr[i] == 9)
+                    n9++;
+            }
+
+            Console.WriteLine("numbers are: [{0}]", string.Join(",", arr));
+            Console.WriteLine("Number of 2s: {0}", n2);
+            Console.WriteLine("Number of 9s: {0}", n9);
+            
+            Console.ReadLine();
+
+        }
+    }
+}
+
+
