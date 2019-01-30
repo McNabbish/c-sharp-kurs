@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Text.RegularExpressions;
+using System.Data;
+
+namespace _1._4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String filePath = @"C:\Users\johan\Desktop\c#\indata14.txt";
+            int nLines=0;
+            String[] text = new string[10];
+
+            try
+            {
+                text = File.ReadAllLines(filePath);
+                nLines = text.Length;
+
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred: '{0}'", e);
+            }
+            
+            double[] x = new double[nLines]; //wavelength
+            double[] y = new double[nLines]; // intensity
+
+            for (int i = 1; i < nLines; i++) // convert string to double arrays
+            {
+                string[] xy=text[i].Split(' ');
+                xy[0] = xy[0].Replace('.', ','); // unclear why but this seems needed...
+                xy[1] = xy[1].Replace('.', ',');
+                x[i] = Convert.ToDouble(xy[0]);
+                y[i] = Convert.ToDouble(xy[1]);
+                Console.WriteLine("x={0}, y={1}", x[i], y[i]);
+            }
+
+            Double PeakMin=0;
+            try
+            {
+                
+                Console.WriteLine("Input minimum peak intensity: ");
+                PeakMin = Convert.ToDouble(Console.ReadLine());
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred: '{0}'", e);
+            }
+
+            double[] peaks = new double[100];
+            double[] peakInt = new double[100];
+            int npeaks = 0;
+
+            for(int i=1;i<nLines;i++) // calculating peaks, disregarding edge cases
+            {
+                if (y[i] > y[i - 1] && y[i] > y[i + 1] && y[i] > PeakMin)
+                {
+                    peaks[npeaks] = x[i];
+                    peakInt[npeaks] = y[i];
+                    npeaks++;
+                    Console.WriteLine("Peak at x: {0}, y: {1}, total number of peaks: {2}", x[i], y[i], npeaks);
+                }
+
+            }
+
+
+
+
+            Console.ReadLine();
+
+
+
+
+
+        }
+    }
+}
+
