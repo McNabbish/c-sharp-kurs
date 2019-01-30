@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1._2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double price, payment, change;
+
+            Console.WriteLine("Input price of item:");
+            string line = Console.ReadLine();
+            price = double.Parse(line);
+            Console.WriteLine("Input payment recieved:");
+            line = Console.ReadLine();
+            payment = double.Parse(line);
+            change = payment - price;
+            Console.WriteLine(" change to give back: {0}", change);
+            double dec = Math.Round(change * 2)/2;
+            double test = dec - (int)change;
+            
+
+
+            int[] value = new int[] { 1000, 500, 100, 50, 20, 10, 5, 1, 1 }; // avalible bills, .50 approximated to 1 due to ints
+            int[] nbills = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+ 
+
+            int changecalc = (int)change; //turning change to int to use modulus operator
+            
+            for (int i=0;i < 9 ;i++)
+            {
+                nbills[i] = changecalc / value[i];
+                changecalc = changecalc % value[i];
+            }
+
+            if (test == 0.5) //adding 50 öring or extra 1 due to decimals
+                nbills[8]++;
+            else if (test == 1)
+                nbills[7]++;
+
+            for (int i = 0; i < 9; i++)
+            {
+                if (i<8)
+                Console.WriteLine("number of {0}s: {1}", value[i], nbills[i]);
+                else
+                    Console.WriteLine("number of 0.5s: {0}", nbills[i]);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
