@@ -1,0 +1,7 @@
+C:\Users\johan\Desktop\c#\2.5\2.5\bin\Debug\2.5.exe.config
+C:\Users\johan\Desktop\c#\2.5\2.5\bin\Debug\2.5.exe
+C:\Users\johan\Desktop\c#\2.5\2.5\bin\Debug\2.5.pdb
+C:\Users\johan\Desktop\c#\2.5\2.5\obj\Debug\2.5.csprojResolveAssemblyReference.cache
+C:\Users\johan\Desktop\c#\2.5\2.5\obj\Debug\2.5.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\2.5\2.5\obj\Debug\2.5.exe
+C:\Users\johan\Desktop\c#\2.5\2.5\obj\Debug\2.5.pdb
