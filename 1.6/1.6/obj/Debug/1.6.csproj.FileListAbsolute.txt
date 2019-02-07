@@ -1,0 +1,7 @@
+C:\Users\johan\Desktop\c#\1.6\1.6\bin\Debug\1.6.exe.config
+C:\Users\johan\Desktop\c#\1.6\1.6\bin\Debug\1.6.exe
+C:\Users\johan\Desktop\c#\1.6\1.6\bin\Debug\1.6.pdb
+C:\Users\johan\Desktop\c#\1.6\1.6\obj\Debug\1.6.csprojResolveAssemblyReference.cache
+C:\Users\johan\Desktop\c#\1.6\1.6\obj\Debug\1.6.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\1.6\1.6\obj\Debug\1.6.exe
+C:\Users\johan\Desktop\c#\1.6\1.6\obj\Debug\1.6.pdb
