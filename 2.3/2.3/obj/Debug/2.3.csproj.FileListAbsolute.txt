@@ -1,0 +1,7 @@
+C:\Users\johan\Desktop\c#\2.3\2.3\obj\Debug\2.3.csprojResolveAssemblyReference.cache
+C:\Users\johan\Desktop\c#\2.3\2.3\obj\Debug\2.3.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\2.3\2.3\bin\Debug\2.3.exe.config
+C:\Users\johan\Desktop\c#\2.3\2.3\bin\Debug\2.3.exe
+C:\Users\johan\Desktop\c#\2.3\2.3\bin\Debug\2.3.pdb
+C:\Users\johan\Desktop\c#\2.3\2.3\obj\Debug\2.3.exe
+C:\Users\johan\Desktop\c#\2.3\2.3\obj\Debug\2.3.pdb
