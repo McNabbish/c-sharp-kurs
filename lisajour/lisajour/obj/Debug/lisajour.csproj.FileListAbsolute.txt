@@ -1,0 +1,10 @@
+C:\Users\johan\Desktop\c#\lisajour\lisajour\bin\Debug\lisajour.exe.config
+C:\Users\johan\Desktop\c#\lisajour\lisajour\bin\Debug\lisajour.exe
+C:\Users\johan\Desktop\c#\lisajour\lisajour\bin\Debug\lisajour.pdb
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.csprojResolveAssemblyReference.cache
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.Form1.resources
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.Properties.Resources.resources
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.csproj.GenerateResource.Cache
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.exe
+C:\Users\johan\Desktop\c#\lisajour\lisajour\obj\Debug\lisajour.pdb
