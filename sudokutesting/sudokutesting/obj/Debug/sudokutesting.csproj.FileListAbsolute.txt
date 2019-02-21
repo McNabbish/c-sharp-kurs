@@ -1,0 +1,7 @@
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\bin\Debug\sudokutesting.exe.config
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\bin\Debug\sudokutesting.exe
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\bin\Debug\sudokutesting.pdb
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\obj\Debug\sudokutesting.csprojResolveAssemblyReference.cache
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\obj\Debug\sudokutesting.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\obj\Debug\sudokutesting.exe
+C:\Users\johan\Desktop\c#\sudokutesting\sudokutesting\obj\Debug\sudokutesting.pdb
