@@ -109,10 +109,19 @@ namespace calculator
             }   
             else
             {
-                DataTable dt = new DataTable();
-                var v = dt.Compute(this.Input.Text, "");
-                this.Input.Text += " = ";
-                this.Input.Text += v;
+                try
+                {
+                    DataTable dt = new DataTable();
+                    var v = dt.Compute(this.Input.Text, "");
+                    this.Input.Text += " = ";
+                    this.Input.Text += v;
+                }
+
+                catch (Exception a)
+                {
+                    this.Input.Text = "";
+                    this.Input.Text += a;
+                }
             }
 
         }
