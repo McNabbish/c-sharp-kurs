@@ -1,0 +1,10 @@
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\bin\Release\SudGUI.exe.config
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\bin\Release\SudGUI.exe
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\bin\Release\SudGUI.pdb
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.Form1.resources
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.Properties.Resources.resources
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.csproj.GenerateResource.Cache
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.exe
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.pdb
+C:\Users\johan\Desktop\c#\SudGUI\SudGUI\obj\Release\SudGUI.csprojResolveAssemblyReference.cache
